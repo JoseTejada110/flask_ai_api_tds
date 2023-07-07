@@ -70,5 +70,5 @@ def readLicensePlate():
 if __name__ == "__main__":
     # Precargando los pesos de los modelos
     plate_model = YOLO("/Users/josetejada/Desktop/flask_api/models/plate_detection_weights.pt")
-    characters_model = model = YOLO("/Users/josetejada/Desktop/flask_api/models/characters_detection_weights.pt")
+    characters_model = YOLO("/Users/josetejada/Desktop/flask_api/models/characters_detection_weights.pt")
     app.run(debug=True)
